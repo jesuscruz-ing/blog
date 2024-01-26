@@ -1,0 +1,8 @@
+CREATE TABLE entries (
+	id_entrie INT IDENTITY(1,1) PRIMARY KEY,
+	title NVARCHAR(50) NOT NULL,
+	author NVARCHAR(50) NOT NULL,
+	content NVARCHAR(MAX) NOT NULL,
+	created_at DATETIME NOT NULL,
+	updated_at DATETIME NULL
+);
